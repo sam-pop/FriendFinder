@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
     <title>Friend Finder // Survey</title>
 </head>
 
@@ -24,6 +28,7 @@
         <!-- Survey form -->
         <section class="section">
             <div class="container">
+                <h5>Personal Info</h5>
                 <form role="form" class="col s12" action="#">
                     <div class="row">
                         <div class="input-field col s4">
@@ -35,9 +40,11 @@
                             <label for="pic">Profile picture URL</label>
                         </div>
                     </div>
+                    <h4 class="center">And now for some hard questions...</h4>
                     <br>
                     <div class="row">
-                        <h5>1) the question will come here</h5>
+                        <h6>1) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question1" type="radio" value="1" class="with-gap" />
@@ -61,9 +68,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>2) the question will come here</h5>
+                        <h6>2) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question2" type="radio" value="1" class="with-gap" />
@@ -87,9 +94,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>3) the question will come here</h5>
+                        <h6>3) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question3" type="radio" value="1" class="with-gap" />
@@ -113,9 +120,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>4) the question will come here</h5>
+                        <h6>4) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question4" type="radio" value="1" class="with-gap" />
@@ -139,9 +146,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>5) the question will come here</h5>
+                        <h6>5) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question5" type="radio" value="1" class="with-gap" />
@@ -165,9 +172,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>6) the question will come here</h5>
+                        <h6>6) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question6" type="radio" value="1" class="with-gap" />
@@ -191,9 +198,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>7) the question will come here</h5>
+                        <h6>7) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question7" type="radio" value="1" class="with-gap" />
@@ -217,9 +224,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>8) the question will come here</h5>
+                        <h6>8) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question8" type="radio" value="1" class="with-gap" />
@@ -243,9 +250,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>9) the question will come here</h5>
+                        <h6>9) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question9" type="radio" value="1" class="with-gap" />
@@ -269,9 +276,9 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                     <div class="row">
-                        <h5>10) the question will come here</h5>
+                        <h6>10) the question will come here</h6>
+                        <div class="divider"></div>
                         <p>
                             <label>
                                 <input name="question10" type="radio" value="1" class="with-gap" />
@@ -295,17 +302,16 @@
                             </label>
                         </p>
                     </div>
-                    <div class="divider"></div>
                 </form>
             </div>
         </section>
         <br>
-        <br>
         <div class="center">
-            <button class="btn purple waves-effect waves-light" type="submit" name="action">Submit
+            <button id="submitBtn" class="btn purple waves-effect waves-light btn-large" type="submit" name="action">Submit
                 <i class="material-icons right">send</i>
             </button>
         </div>
+        <br>
         <br>
     </div>
     <!-- Footer -->
@@ -319,8 +325,17 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
+    <script type="text/javascript">
+        $(function () {
+            $('#submitBtn').on('click', function () {
+                let myAnswers = [];
+                for (let i = 0; i < 10; i++) {
+                    let q = parseInt($("input[name='question" + (i + 1) + "']:checked").val());
+                    myAnswers.push(q);
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
