@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="http://tristanedwards.me/u/SweetAlert/lib/sweet-alert.js"></script>
+    <link href="http://tristanedwards.me/u/SweetAlert/lib/sweet-alert.css" rel="stylesheet" />
     <style>
         button {
             background-color: #9c27b0 !important;
+        }
+
+        .modal {
+            outline: none;
         }
     </style>
 
@@ -354,10 +360,16 @@
                     // POST the created object and create modal with the response
                     $.post('/api/friends', response, function (data) {
                         if (data) {
-                            console.log(data); //TODO: for testing - delete
                             createModal(data);
                             // init materialize modal
-                            $(".modal").modal(); //TODO: FIX MODAL (try maybe to build the modal straight in the html and just add the attr dynamically)
+                            $(".modal").modal();
+                            swal({
+                                title: "<img src='https://s22.postimg.cc/9tq7db1nl/e00f27269606a9a25c7cdaf97f2960f8_1.png' border='0' alt='success'/><br><br>You got a MATCH!",
+                                text: "<button data-target='resModal' class='modal-trigger'>Show me</button>",
+                                html: true,
+                                showConfirmButton: false
+                            });
+
                         }
                     });
                 } else {
@@ -375,13 +387,20 @@
         });
 
         function createModal(data) {
-            let modal = $('<div>').attr('id', 'resModal').addClass('modal');
-            let content = $('<div>').addClass('modal-content center').append([$('<img>').addClass('circle').attr('src',
+            $('.modalDisplay').empty();
+            let modal = $('<div>').attr('id', 'resModal').addClass(
+                'modal purple white-text valign-wrapper center-align').css(
+                'border-radius',
+                '10px');
+            let content = $('<div>').addClass('modal-content center-align').append([$('<img>').addClass('circle').attr(
+                    'src',
                     data.photo),
-                $('<h3>').text(data.name)
+                $('<h2>').text(data.name)
             ]);
-            let footer = $('<div>').addClass('modal-footer center').append($('<a>').addClass(
-                'modal-close waves-effect waves-purple btn-flat').attr('href', '#!').text('Close'));
+            let footer = $('<div>').addClass('center-align modal-footer grey lighten-5').append($('<a>').addClass(
+                'modal-close').attr('href', '/').append($('<button>').addClass(
+                'waves-effect waves-purple btn center-align').text(
+                'CLOSE')));
             modal.append([content, footer]);
             $('.modalDisplay').append(modal);
         }
