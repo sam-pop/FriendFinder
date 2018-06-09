@@ -8,16 +8,14 @@ module.exports = function (app) {
     });
 
     app.post('/api/friends', function (req, res) {
-        if (req.body) { //TODO: check that this is the right condition
-            //TODO: check for compatibility (using `req.body` against the `friends` array)
-            //TODO: return the most compatible friend (using `res`)
+        if (req.body) {
             res.json(checkCompatibility(req.body));
         }
     });
 
 };
 
-
+// checks the friends data array for the most compatible match against the provided scores array (returns -> friend object)
 function checkCompatibility(arr) {
     let bestScore = Infinity;
     let bestFriend;
@@ -31,8 +29,7 @@ function checkCompatibility(arr) {
             bestFriend = friend;
         }
     }
-    console.log('​checkCompatibility -> bestScore', bestScore);
-
-    console.log('​checkCompatibility -> bestFriend', bestFriend);
+    console.log('bestScore: ', bestScore);
+    console.log('bestFriend: ', bestFriend);
     return bestFriend;
 }
