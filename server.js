@@ -13,12 +13,11 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
+// Router
+require('./app/routing/htmlRoutes')(app);
+require('./app/routing/apiRoutes')(app);
 
-app.get('/', function (req, res) {
-    res.send('hello world!');
-});
-
-// Server listen
+// Listener
 app.listen(3000, function () {
-    console.log("Server running on Port 3000...");
+    console.log("Listening on port " + PORT);
 });
