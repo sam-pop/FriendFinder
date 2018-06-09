@@ -29,7 +29,5 @@ function checkCompatibility(arr) {
             bestFriend = friend;
         }
     }
-    console.log('bestScore: ', bestScore); //TODO: delete
-    console.log('bestFriend: ', bestFriend); //TODO: delete
     return bestFriend;
 }
