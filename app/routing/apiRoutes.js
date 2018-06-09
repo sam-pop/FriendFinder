@@ -11,7 +11,7 @@ module.exports = function (app) {
     //  handles incoming survey results
     app.post('/api/friends', function (req, res) {
         if (req.body) {
-            res.json(checkCompatibility(req.body));
+            res.json(checkCompatibility(req.body.rawData));
         }
     });
 
