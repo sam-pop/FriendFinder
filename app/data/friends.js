@@ -1,7 +1,7 @@
 var friends = [{
         name: "Tester McTesty",
         photo: "https://randomuser.me/api/portraits/men/0.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 3, 4, 2]
+        scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     },
     {
         name: 'randy mitchelle',
