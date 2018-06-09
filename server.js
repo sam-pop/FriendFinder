@@ -9,12 +9,12 @@ const PORT = process.env.PORT || 3000;
 // body-parser middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
-    extended: false
+    extended: true
 }));
 
 // Router
 require('./app/routing/htmlRoutes')(app);
-require('./app/routing/apiRoutes')(app);
+// require('./app/routing/apiRoutes')(app);
 
 // Listener
 app.listen(3000, function () {
