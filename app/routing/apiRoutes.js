@@ -15,7 +15,7 @@ module.exports = function (app) {
 
 };
 
-// checks the friends data array for the most compatible match against the provided scores array (returns -> friend object)
+// checks the friends data for the most compatible match against the provided scores array (returns -> friend object)
 function checkCompatibility(arr) {
     let bestScore = Infinity;
     let bestFriend;
