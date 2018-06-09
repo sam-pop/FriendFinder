@@ -8,7 +8,7 @@ module.exports = function (app) {
     });
 
     app.post('api/friends', function (req, res) {
-        if (req.body) {
+        if (req.body) { //TODO: check that this is the right condition
             //TODO: check for compatibility (using `req.body` against the `friends` array)
             //TODO: return the most compatible friend (using `res`)
         }
