@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 
 // Router
 require('./app/routing/htmlRoutes')(app);
-// require('./app/routing/apiRoutes')(app);
+// require('./app/routing/apiRoutes')(app); //TODO: uncomment after building the file
 
 // Listener
 app.listen(3000, function () {
