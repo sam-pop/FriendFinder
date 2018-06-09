@@ -317,6 +317,7 @@
                 <i class="material-icons right">send</i>
             </button>
         </div>
+        <div class="modalDisplay"></div>
         <br>
         <br>
     </div>
@@ -333,23 +334,30 @@
     </footer>
     <script type="text/javascript">
         $(function () {
+            // submit button listener
             $('#submitBtn').on('click', function () {
                 let name = $('#name').val().trim();
                 let pic = $('#pic').val().trim();
+
+                // push the values of the checked radio buttons into an array 
                 if (name && pic) {
                     let myAnswers = [];
-                    let response = {};
                     for (let i = 0; i < 10; i++) {
                         let q = parseInt($("input[name='question" + (i + 1) + "']:checked").val());
                         myAnswers.push(q);
                     }
+
+                    // add the array we created to a new object
+                    let response = {};
                     response.rawData = myAnswers;
+
+                    // POST the created object and create modal with the response
                     $.post('/api/friends', response, function (data) {
                         if (data) {
-                            swal("We found a MATCH for you!", "", "success", {
-                                button: "Let's see what you got",
-                            });
-                            console.log(data);
+                            console.log(data); //TODO: for testing - delete
+                            createModal(data);
+                            // init materialize modal
+                            $(".modal").modal(); //TODO: FIX MODAL
                         }
                     });
                 } else {
@@ -365,6 +373,18 @@
                 }
             });
         });
+
+        function createModal(data) {
+            let modal = $('<div>').attr('id', 'resModal').addClass('modal');
+            let content = $('<div>').addClass('modal-content center').append([$('<img>').addClass('circle').attr('src',
+                    data.photo),
+                $('<h3>').text(data.name)
+            ]);
+            let footer = $('<div>').addClass('modal-footer center').append($('<a>').addClass(
+                'modal-close waves-effect waves-purple btn-flat').attr('href', '#!').text('Close'));
+            modal.append([content, footer]);
+            $('.modalDisplay').append(modal);
+        }
     </script>
 </body>
 
