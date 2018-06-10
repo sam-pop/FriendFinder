@@ -1,500 +1,500 @@
 var friends = [{
-        name: "Tester McTesty",
+        name: 'Tester Mctesty',
         photo: "https://randomuser.me/api/portraits/men/0.jpg",
         scores: [2, 3, 3, 2, 2, 3, 3, 2, 2, 3]
     },
     {
-        name: 'randy mitchelle',
+        name: 'Randy Mitchelle',
         photo: 'https://randomuser.me/api/portraits/men/9.jpg',
         scores: [2, 5, 5, 5, 4, 3, 2, 1, 2, 5]
     },
     {
-        name: 'herminia hernandez',
+        name: 'Herminia Hernandez',
         photo: 'https://randomuser.me/api/portraits/women/32.jpg',
         scores: [1, 4, 1, 3, 1, 5, 3, 2, 5, 2]
     },
     {
-        name: 'gavin rose',
+        name: 'Gavin Rose',
         photo: 'https://randomuser.me/api/portraits/men/98.jpg',
         scores: [3, 1, 4, 4, 5, 3, 2, 1, 5, 4]
     },
     {
-        name: 'lori cox',
+        name: 'Lori Cox',
         photo: 'https://randomuser.me/api/portraits/women/78.jpg',
         scores: [5, 1, 1, 5, 4, 1, 2, 2, 4, 2]
     },
     {
-        name: 'marcus horton',
+        name: 'Marcus Horton',
         photo: 'https://randomuser.me/api/portraits/men/88.jpg',
         scores: [5, 4, 5, 4, 3, 3, 5, 4, 1, 4]
     },
     {
-        name: 'gwendolyn hayes',
+        name: 'Gwendolyn Hayes',
         photo: 'https://randomuser.me/api/portraits/women/45.jpg',
         scores: [5, 2, 4, 4, 2, 3, 5, 3, 4, 2]
     },
     {
-        name: 'isobel horton',
+        name: 'Isobel Horton',
         photo: 'https://randomuser.me/api/portraits/women/1.jpg',
         scores: [3, 2, 1, 1, 3, 5, 1, 2, 1, 2]
     },
     {
-        name: 'evan patterson',
+        name: 'Evan Patterson',
         photo: 'https://randomuser.me/api/portraits/men/97.jpg',
         scores: [4, 1, 2, 4, 3, 3, 2, 4, 5, 4]
     },
     {
-        name: 'tonya reyes',
+        name: 'Tonya Reyes',
         photo: 'https://randomuser.me/api/portraits/women/96.jpg',
         scores: [3, 1, 1, 5, 5, 2, 1, 4, 3, 1]
     },
     {
-        name: 'earl lee',
+        name: 'Earl Lee',
         photo: 'https://randomuser.me/api/portraits/men/74.jpg',
         scores: [1, 1, 3, 5, 4, 1, 3, 4, 1, 2]
     },
     {
-        name: 'corey carter',
+        name: 'Corey Carter',
         photo: 'https://randomuser.me/api/portraits/men/79.jpg',
         scores: [5, 4, 5, 2, 1, 3, 4, 2, 5, 5]
     },
     {
-        name: 'dale davidson',
+        name: 'Dale Davidson',
         photo: 'https://randomuser.me/api/portraits/men/95.jpg',
         scores: [3, 3, 5, 3, 3, 4, 1, 3, 1, 5]
     },
     {
-        name: 'clifford bates',
+        name: 'Clifford Bates',
         photo: 'https://randomuser.me/api/portraits/men/9.jpg',
         scores: [2, 2, 3, 3, 3, 2, 4, 2, 1, 5]
     },
     {
-        name: 'lillian moore',
+        name: 'Lillian Moore',
         photo: 'https://randomuser.me/api/portraits/women/49.jpg',
         scores: [1, 1, 3, 1, 2, 1, 3, 4, 1, 1]
     },
     {
-        name: 'loretta smith',
+        name: 'Loretta Smith',
         photo: 'https://randomuser.me/api/portraits/women/29.jpg',
         scores: [1, 4, 4, 1, 1, 1, 5, 3, 1, 2]
     },
     {
-        name: 'lawrence willis',
+        name: 'Lawrence Willis',
         photo: 'https://randomuser.me/api/portraits/men/66.jpg',
         scores: [2, 1, 4, 4, 4, 2, 4, 2, 5, 4]
     },
     {
-        name: 'adrian watts',
+        name: 'Adrian Watts',
         photo: 'https://randomuser.me/api/portraits/men/23.jpg',
         scores: [5, 1, 1, 5, 4, 5, 1, 4, 4, 3]
     },
     {
-        name: 'julio sanders',
+        name: 'Julio Sanders',
         photo: 'https://randomuser.me/api/portraits/men/44.jpg',
         scores: [2, 2, 2, 2, 1, 1, 3, 4, 5, 2]
     },
     {
-        name: 'connor jennings',
+        name: 'Connor Jennings',
         photo: 'https://randomuser.me/api/portraits/men/95.jpg',
         scores: [4, 5, 4, 5, 3, 2, 1, 5, 5, 4]
     },
     {
-        name: 'victor fuller',
+        name: 'Victor Fuller',
         photo: 'https://randomuser.me/api/portraits/men/13.jpg',
         scores: [5, 5, 4, 3, 4, 1, 2, 1, 5, 5]
     },
     {
-        name: 'alex reynolds',
+        name: 'Alex Reynolds',
         photo: 'https://randomuser.me/api/portraits/men/28.jpg',
         scores: [4, 1, 1, 3, 1, 3, 3, 2, 1, 5]
     },
     {
-        name: 'rebecca lucas',
+        name: 'Rebecca Lucas',
         photo: 'https://randomuser.me/api/portraits/women/31.jpg',
         scores: [3, 3, 3, 2, 5, 5, 2, 4, 3, 5]
     },
     {
-        name: 'greg martinez',
+        name: 'Greg Martinez',
         photo: 'https://randomuser.me/api/portraits/men/17.jpg',
         scores: [4, 2, 2, 3, 1, 3, 3, 5, 3, 3]
     },
     {
-        name: 'rosa weaver',
+        name: 'Rosa Weaver',
         photo: 'https://randomuser.me/api/portraits/women/50.jpg',
         scores: [1, 2, 5, 2, 1, 3, 1, 1, 5, 4]
     },
     {
-        name: 'dawn johnston',
+        name: 'Dawn Johnston',
         photo: 'https://randomuser.me/api/portraits/women/37.jpg',
         scores: [5, 3, 2, 1, 2, 5, 3, 2, 1, 3]
     },
     {
-        name: 'dale welch',
+        name: 'Dale Welch',
         photo: 'https://randomuser.me/api/portraits/men/90.jpg',
         scores: [3, 3, 3, 1, 1, 5, 4, 4, 4, 3]
     },
     {
-        name: 'claudia olson',
+        name: 'Claudia Olson',
         photo: 'https://randomuser.me/api/portraits/women/32.jpg',
         scores: [3, 2, 4, 3, 4, 4, 3, 4, 3, 5]
     },
     {
-        name: 'beverley welch',
+        name: 'Beverley Welch',
         photo: 'https://randomuser.me/api/portraits/women/45.jpg',
         scores: [4, 4, 2, 2, 1, 2, 2, 4, 2, 2]
     },
     {
-        name: 'william bailey',
+        name: 'William Bailey',
         photo: 'https://randomuser.me/api/portraits/men/65.jpg',
         scores: [3, 3, 2, 2, 3, 1, 5, 2, 2, 4]
     },
     {
-        name: 'lillie holland',
+        name: 'Lillie Holland',
         photo: 'https://randomuser.me/api/portraits/women/64.jpg',
         scores: [2, 1, 5, 1, 1, 2, 3, 1, 3, 3]
     },
     {
-        name: 'kristin rodriguez',
+        name: 'Kristin Rodriguez',
         photo: 'https://randomuser.me/api/portraits/women/78.jpg',
         scores: [5, 2, 2, 1, 5, 3, 3, 4, 4, 1]
     },
     {
-        name: 'bryan carpenter',
+        name: 'Bryan Carpenter',
         photo: 'https://randomuser.me/api/portraits/men/53.jpg',
         scores: [5, 5, 2, 3, 4, 5, 1, 1, 4, 5]
     },
     {
-        name: 'vernon foster',
+        name: 'Vernon Foster',
         photo: 'https://randomuser.me/api/portraits/men/78.jpg',
         scores: [5, 5, 2, 1, 4, 3, 3, 5, 5, 5]
     },
     {
-        name: 'claude mills',
+        name: 'Claude Mills',
         photo: 'https://randomuser.me/api/portraits/men/74.jpg',
         scores: [3, 2, 1, 1, 2, 4, 5, 1, 4, 2]
     },
     {
-        name: 'courtney craig',
+        name: 'Courtney Craig',
         photo: 'https://randomuser.me/api/portraits/women/6.jpg',
         scores: [4, 3, 3, 5, 1, 5, 1, 1, 3, 5]
     },
     {
-        name: 'eddie crawford',
+        name: 'Eddie Crawford',
         photo: 'https://randomuser.me/api/portraits/men/73.jpg',
         scores: [3, 3, 5, 3, 4, 2, 3, 4, 2, 1]
     },
     {
-        name: 'mathew vasquez',
+        name: 'Mathew Vasquez',
         photo: 'https://randomuser.me/api/portraits/men/36.jpg',
         scores: [3, 5, 5, 2, 1, 4, 4, 5, 5, 4]
     },
     {
-        name: 'pauline lucas',
+        name: 'Pauline Lucas',
         photo: 'https://randomuser.me/api/portraits/women/0.jpg',
         scores: [5, 1, 5, 4, 1, 2, 5, 5, 5, 2]
     },
     {
-        name: 'alfredo fleming',
+        name: 'Alfredo Fleming',
         photo: 'https://randomuser.me/api/portraits/men/66.jpg',
         scores: [2, 3, 5, 5, 3, 4, 3, 4, 4, 2]
     },
     {
-        name: 'juanita beck',
+        name: 'Juanita Beck',
         photo: 'https://randomuser.me/api/portraits/women/75.jpg',
         scores: [3, 3, 5, 1, 3, 3, 3, 2, 1, 2]
     },
     {
-        name: 'gladys arnold',
+        name: 'Gladys Arnold',
         photo: 'https://randomuser.me/api/portraits/women/22.jpg',
         scores: [1, 1, 3, 4, 5, 1, 4, 5, 3, 3]
     },
     {
-        name: 'ivan fowler',
+        name: 'Ivan Fowler',
         photo: 'https://randomuser.me/api/portraits/men/87.jpg',
         scores: [4, 4, 5, 3, 5, 5, 3, 1, 4, 3]
     },
     {
-        name: 'terry king',
+        name: 'Terry King',
         photo: 'https://randomuser.me/api/portraits/women/87.jpg',
         scores: [3, 5, 2, 4, 1, 2, 4, 4, 1, 3]
     },
     {
-        name: 'jessie howard',
+        name: 'Jessie Howard',
         photo: 'https://randomuser.me/api/portraits/men/70.jpg',
         scores: [5, 5, 1, 1, 4, 2, 3, 3, 3, 1]
     },
     {
-        name: 'ben spencer',
+        name: 'Ben Spencer',
         photo: 'https://randomuser.me/api/portraits/men/35.jpg',
         scores: [4, 2, 1, 5, 4, 1, 4, 1, 3, 3]
     },
     {
-        name: 'ricky lucas',
+        name: 'Ricky Lucas',
         photo: 'https://randomuser.me/api/portraits/men/44.jpg',
         scores: [5, 3, 1, 4, 3, 5, 4, 1, 5, 4]
     },
     {
-        name: 'freddie lee',
+        name: 'Freddie Lee',
         photo: 'https://randomuser.me/api/portraits/men/26.jpg',
         scores: [4, 5, 3, 2, 5, 3, 4, 3, 3, 3]
     },
     {
-        name: 'patsy harris',
+        name: 'Patsy Harris',
         photo: 'https://randomuser.me/api/portraits/women/83.jpg',
         scores: [4, 3, 4, 1, 2, 2, 2, 3, 4, 2]
     },
     {
-        name: 'leon neal',
+        name: 'Leon Neal',
         photo: 'https://randomuser.me/api/portraits/men/26.jpg',
         scores: [5, 4, 3, 3, 2, 4, 1, 1, 4, 2]
     },
     {
-        name: 'leta harris',
+        name: 'Leta Harris',
         photo: 'https://randomuser.me/api/portraits/women/42.jpg',
         scores: [3, 4, 1, 2, 3, 4, 4, 4, 4, 2]
     },
     {
-        name: 'josephine ramirez',
+        name: 'Josephine Ramirez',
         photo: 'https://randomuser.me/api/portraits/women/33.jpg',
         scores: [1, 5, 5, 3, 3, 5, 2, 4, 4, 3]
     },
     {
-        name: 'ernest oliver',
+        name: 'Ernest Oliver',
         photo: 'https://randomuser.me/api/portraits/men/53.jpg',
         scores: [2, 5, 1, 5, 2, 4, 5, 5, 3, 4]
     },
     {
-        name: 'evan simmons',
+        name: 'Evan Simmons',
         photo: 'https://randomuser.me/api/portraits/men/25.jpg',
         scores: [4, 2, 4, 3, 5, 1, 5, 1, 5, 2]
     },
     {
-        name: 'eileen fox',
+        name: 'Eileen Fox',
         photo: 'https://randomuser.me/api/portraits/women/26.jpg',
         scores: [3, 5, 2, 1, 5, 3, 1, 1, 5, 1]
     },
     {
-        name: 'bobbie fletcher',
+        name: 'Bobbie Fletcher',
         photo: 'https://randomuser.me/api/portraits/women/81.jpg',
         scores: [2, 2, 3, 2, 1, 5, 4, 3, 5, 4]
     },
     {
-        name: 'hailey steeves',
+        name: 'Hailey Steeves',
         photo: 'https://randomuser.me/api/portraits/women/44.jpg',
         scores: [1, 4, 3, 3, 4, 2, 3, 2, 4, 3]
     },
     {
-        name: 'mike myers',
+        name: 'Mike Myers',
         photo: 'https://randomuser.me/api/portraits/men/47.jpg',
         scores: [1, 2, 2, 1, 2, 4, 4, 2, 1, 5]
     },
     {
-        name: 'jenny little',
+        name: 'Jenny Little',
         photo: 'https://randomuser.me/api/portraits/women/91.jpg',
         scores: [3, 2, 5, 5, 1, 2, 4, 5, 3, 1]
     },
     {
-        name: 'debbie peck',
+        name: 'Debbie Peck',
         photo: 'https://randomuser.me/api/portraits/women/69.jpg',
         scores: [4, 5, 4, 2, 4, 4, 2, 5, 3, 1]
     },
     {
-        name: 'mike hudson',
+        name: 'Mike Hudson',
         photo: 'https://randomuser.me/api/portraits/men/18.jpg',
         scores: [5, 4, 1, 1, 2, 2, 2, 5, 5, 4]
     },
     {
-        name: 'claudia miles',
+        name: 'Claudia Miles',
         photo: 'https://randomuser.me/api/portraits/women/46.jpg',
         scores: [2, 1, 1, 4, 1, 1, 4, 5, 4, 3]
     },
     {
-        name: 'courtney gomez',
+        name: 'Courtney Gomez',
         photo: 'https://randomuser.me/api/portraits/women/5.jpg',
         scores: [3, 3, 5, 1, 3, 2, 5, 3, 1, 1]
     },
     {
-        name: 'vincent holland',
+        name: 'Vincent Holland',
         photo: 'https://randomuser.me/api/portraits/men/4.jpg',
         scores: [1, 1, 1, 4, 5, 2, 5, 4, 4, 3]
     },
     {
-        name: 'gladys ward',
+        name: 'Gladys Ward',
         photo: 'https://randomuser.me/api/portraits/women/88.jpg',
         scores: [5, 2, 1, 1, 5, 3, 4, 5, 4, 5]
     },
     {
-        name: 'harry olson',
+        name: 'Harry Olson',
         photo: 'https://randomuser.me/api/portraits/men/38.jpg',
         scores: [4, 5, 1, 5, 2, 3, 3, 2, 1, 5]
     },
     {
-        name: 'charlene berry',
+        name: 'Charlene Berry',
         photo: 'https://randomuser.me/api/portraits/women/12.jpg',
         scores: [3, 4, 3, 4, 2, 4, 5, 3, 2, 4]
     },
     {
-        name: 'ann meyer',
+        name: 'Ann Meyer',
         photo: 'https://randomuser.me/api/portraits/women/81.jpg',
         scores: [3, 5, 5, 1, 1, 1, 1, 1, 3, 3]
     },
     {
-        name: 'marian hoffman',
+        name: 'Marian Hoffman',
         photo: 'https://randomuser.me/api/portraits/women/56.jpg',
         scores: [4, 5, 5, 3, 3, 1, 1, 5, 2, 1]
     },
     {
-        name: 'austin hanson',
+        name: 'Austin Hanson',
         photo: 'https://randomuser.me/api/portraits/men/47.jpg',
         scores: [3, 5, 4, 1, 3, 5, 5, 5, 2, 5]
     },
     {
-        name: 'kelly perez',
+        name: 'Kelly Perez',
         photo: 'https://randomuser.me/api/portraits/women/40.jpg',
         scores: [4, 2, 5, 1, 5, 2, 4, 3, 3, 5]
     },
     {
-        name: 'violet terry',
+        name: 'Violet Terry',
         photo: 'https://randomuser.me/api/portraits/women/86.jpg',
         scores: [3, 4, 2, 4, 4, 1, 2, 1, 1, 5]
     },
     {
-        name: 'glenda austin',
+        name: 'Glenda Austin',
         photo: 'https://randomuser.me/api/portraits/women/2.jpg',
         scores: [1, 4, 3, 4, 3, 2, 5, 4, 1, 1]
     },
     {
-        name: 'judith williamson',
+        name: 'Judith Williamson',
         photo: 'https://randomuser.me/api/portraits/women/11.jpg',
         scores: [1, 2, 5, 5, 3, 4, 4, 2, 4, 4]
     },
     {
-        name: 'marian flores',
+        name: 'Marian Flores',
         photo: 'https://randomuser.me/api/portraits/women/58.jpg',
         scores: [5, 3, 5, 1, 1, 3, 2, 3, 1, 1]
     },
     {
-        name: 'wilma martinez',
+        name: 'Wilma Martinez',
         photo: 'https://randomuser.me/api/portraits/women/32.jpg',
         scores: [4, 3, 5, 4, 3, 2, 1, 5, 5, 4]
     },
     {
-        name: 'matthew banks',
+        name: 'Matthew Banks',
         photo: 'https://randomuser.me/api/portraits/men/23.jpg',
         scores: [1, 2, 1, 1, 2, 3, 3, 4, 2, 5]
     },
     {
-        name: 'cassandra lambert',
+        name: 'Cassandra Lambert',
         photo: 'https://randomuser.me/api/portraits/women/59.jpg',
         scores: [2, 1, 4, 5, 5, 2, 4, 2, 1, 1]
     },
     {
-        name: 'annie richardson',
+        name: 'Annie Richardson',
         photo: 'https://randomuser.me/api/portraits/women/43.jpg',
         scores: [3, 4, 2, 3, 4, 4, 3, 5, 3, 3]
     },
     {
-        name: 'edgar simmmons',
+        name: 'Edgar Simmmons',
         photo: 'https://randomuser.me/api/portraits/men/0.jpg',
         scores: [5, 5, 4, 5, 2, 5, 4, 5, 1, 2]
     },
     {
-        name: 'celina carr',
+        name: 'Celina Carr',
         photo: 'https://randomuser.me/api/portraits/women/50.jpg',
         scores: [2, 4, 3, 5, 4, 1, 2, 2, 2, 4]
     },
     {
-        name: 'terrence warren',
+        name: 'Terrence Warren',
         photo: 'https://randomuser.me/api/portraits/men/21.jpg',
         scores: [5, 4, 4, 1, 3, 3, 1, 1, 3, 4]
     },
     {
-        name: 'jar williamson',
+        name: 'Jar Williamson',
         photo: 'https://randomuser.me/api/portraits/men/11.jpg',
         scores: [2, 2, 3, 3, 3, 2, 1, 4, 1, 5]
     },
     {
-        name: 'beatrice lawrence',
+        name: 'Beatrice Lawrence',
         photo: 'https://randomuser.me/api/portraits/women/71.jpg',
         scores: [3, 4, 5, 3, 2, 3, 5, 3, 4, 1]
     },
     {
-        name: 'alvin hall',
+        name: 'Alvin Hall',
         photo: 'https://randomuser.me/api/portraits/men/13.jpg',
         scores: [4, 2, 1, 4, 4, 1, 3, 3, 4, 3]
     },
     {
-        name: 'rafael carter',
+        name: 'Rafael Carter',
         photo: 'https://randomuser.me/api/portraits/men/8.jpg',
         scores: [4, 1, 4, 1, 2, 1, 3, 4, 1, 1]
     },
     {
-        name: 'willard spencer',
+        name: 'Willard Spencer',
         photo: 'https://randomuser.me/api/portraits/men/52.jpg',
         scores: [2, 4, 2, 3, 4, 1, 4, 1, 1, 3]
     },
     {
-        name: 'suzanne harrison',
+        name: 'Suzanne Harrison',
         photo: 'https://randomuser.me/api/portraits/women/59.jpg',
         scores: [3, 1, 5, 4, 5, 5, 2, 2, 3, 1]
     },
     {
-        name: 'josephine coleman',
+        name: 'Josephine Coleman',
         photo: 'https://randomuser.me/api/portraits/women/6.jpg',
         scores: [2, 1, 1, 1, 5, 5, 2, 5, 3, 3]
     },
     {
-        name: 'pedro lowe',
+        name: 'Pedro Lowe',
         photo: 'https://randomuser.me/api/portraits/men/95.jpg',
         scores: [5, 3, 3, 2, 5, 5, 4, 4, 4, 5]
     },
     {
-        name: 'jessica jennings',
+        name: 'Jessica Jennings',
         photo: 'https://randomuser.me/api/portraits/women/10.jpg',
         scores: [4, 3, 5, 2, 1, 4, 5, 2, 5, 5]
     },
     {
-        name: 'christy riley',
+        name: 'Christy Riley',
         photo: 'https://randomuser.me/api/portraits/women/70.jpg',
         scores: [3, 5, 5, 2, 1, 5, 1, 3, 5, 4]
     },
     {
-        name: 'sergio matthews',
+        name: 'Sergio Matthews',
         photo: 'https://randomuser.me/api/portraits/men/11.jpg',
         scores: [2, 1, 4, 3, 1, 5, 4, 3, 5, 5]
     },
     {
-        name: 'roberta griffin',
+        name: 'Roberta Griffin',
         photo: 'https://randomuser.me/api/portraits/women/6.jpg',
         scores: [4, 5, 3, 5, 3, 4, 5, 1, 2, 1]
     },
     {
-        name: 'sophia fields',
+        name: 'Sophia Fields',
         photo: 'https://randomuser.me/api/portraits/women/48.jpg',
         scores: [3, 3, 1, 1, 1, 4, 3, 4, 4, 3]
     },
     {
-        name: 'ellen hoffman',
+        name: 'Ellen Hoffman',
         photo: 'https://randomuser.me/api/portraits/women/95.jpg',
         scores: [3, 3, 5, 5, 3, 2, 4, 5, 5, 5]
     },
     {
-        name: 'sophie nichols',
+        name: 'Sophie Nichols',
         photo: 'https://randomuser.me/api/portraits/women/12.jpg',
         scores: [5, 4, 2, 3, 4, 4, 5, 2, 5, 3]
     },
     {
-        name: 'floyd neal',
+        name: 'Floyd Neal',
         photo: 'https://randomuser.me/api/portraits/men/31.jpg',
         scores: [1, 3, 5, 3, 1, 1, 2, 1, 1, 5]
     },
     {
-        name: 'christopher wallace',
+        name: 'Christopher Wallace',
         photo: 'https://randomuser.me/api/portraits/men/59.jpg',
         scores: [1, 2, 3, 5, 4, 5, 3, 4, 3, 5]
     },
     {
-        name: 'sylvia rhodes',
+        name: 'Sylvia Rhodes',
         photo: 'https://randomuser.me/api/portraits/women/64.jpg',
         scores: [5, 5, 3, 4, 5, 5, 1, 3, 1, 4]
     }
