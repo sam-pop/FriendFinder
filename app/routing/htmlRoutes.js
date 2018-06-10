@@ -1,7 +1,6 @@
 // Dependencies 
 const path = require('path');
 
-
 module.exports = function (app) {
 
     // survey page route
