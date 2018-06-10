@@ -1,0 +1,23 @@
+.hero {
+    padding-top: 10%;
+    color: #FAFAFA;
+}
+
+.card-panel {
+    background-color: #8E24AA !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #9c27b0 !important;
+}

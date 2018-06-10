@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #9c27b0 !important;
+}
+
+.modal {
+    outline: none;
+}
+
+.header {
+    margin-top: -30px;
+    box-shadow: 0px 2px 2px 0px #411149;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h2 {
+    font-family: 'Bree Serif', serif;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 3px;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
+    background-color: #9c27b0 !important;
+    border: 2px solid #9c27b0 !important;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:before,
+[type="radio"].with-gap:checked+span:after {
+    border: 2px solid #9c27b0 !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #9c27b0 !important;
+    -webkit-box-shadow: 0 1px 0 0 #9c27b0 !important;
+    box-shadow: 0 1px 0 0 #9c27b0 !important;
+}
