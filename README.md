@@ -10,9 +10,12 @@ The site includes a "friends" basic API.
 
 This full-stack site was built using HTML5, CSS3, [Materialize CSS](https://materializecss.com/), JavaScript, jQuery, [SweetAlerts](https://sweetalert.js.org/) library, [Node.JS](https://nodejs.org/) and [Express](https://expressjs.com/) (for routing).
 
-
 ## Demo
+
 https://cryptic-sea-72027.herokuapp.com/
 
+![Screenshot](https://s22.postimg.cc/oza8xtbf5/Screenshot_2018-06-10_Friend_Finder.png)
+
 ### Note
+
 This app currently uses dummy data.
