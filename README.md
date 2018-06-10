@@ -4,7 +4,7 @@ FriendFinder is a compatibility-based friend matching application.
 
 This full-stack site takes in results from a user filled survey and compare them to the answers of other users.
 
-The site includes a "friends" basic API.
+The site also includes a basic API.
 
 ## What I used
 
