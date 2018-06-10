@@ -1,7 +1,7 @@
 var friends = [{
         name: "Tester McTesty",
         photo: "https://randomuser.me/api/portraits/men/0.jpg",
-        scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+        scores: [2, 3, 3, 2, 2, 3, 3, 2, 2, 3]
     },
     {
         name: 'randy mitchelle',
@@ -437,11 +437,6 @@ var friends = [{
         name: 'suzanne harrison',
         photo: 'https://randomuser.me/api/portraits/women/59.jpg',
         scores: [3, 1, 5, 4, 5, 5, 2, 2, 3, 1]
-    },
-    {
-        name: 'lewis ellis',
-        photo: 'https://randomuser.me/api/portraits/men/54.jpg',
-        scores: [2, 3, 3, 2, 2, 3, 3, 2, 2, 3]
     },
     {
         name: 'josephine coleman',

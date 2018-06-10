@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link href="../../sweet-alert.css" rel="stylesheet" />
+    <!-- <link href="http://tristanedwards.me/u/SweetAlert/lib/sweet-alert.css" rel="stylesheet" /> -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="http://tristanedwards.me/u/SweetAlert/lib/sweet-alert.js"></script> -->
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -376,7 +377,6 @@
             </div>
         </footer>
     </div>
-    <script src="../../sweet-alert.js"></script>
     <script type="text/javascript">
         $(function () {
             // submit button listener
@@ -402,13 +402,7 @@
                             createModal(data);
                             // init materialize modal
                             $(".modal").modal();
-                            swal({
-                                title: "<img src='https://s22.postimg.cc/9tq7db1nl/e00f27269606a9a25c7cdaf97f2960f8_1.png' border='0' alt='success'/><br><br>You got a MATCH!",
-                                text: "<button data-target='resModal' class='modal-trigger'>Show me</button>",
-                                html: true,
-                                showConfirmButton: false
-                            });
-
+                            $("#resModal").modal('open');
                         }
                     });
                 } else {
@@ -431,10 +425,11 @@
                 'modal purple white-text valign-wrapper center-align').css(
                 'border-radius',
                 '10px');
-            let content = $('<div>').addClass('modal-content center-align').append([$('<img>').addClass('circle').attr(
+            let content = $('<div>').addClass('modal-content center-align').append([$('<h3>').text(
+                    "Look who we've found!"), $('<img>').addClass('circle').attr(
                     'src',
                     data.photo),
-                $('<h2>').text(data.name)
+                $('<h4>').text(data.name)
             ]);
             let footer = $('<div>').addClass('center-align modal-footer grey lighten-5').append($('<a>').addClass(
                 'modal-close').attr('href', '/').append($('<button>').addClass(
