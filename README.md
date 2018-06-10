@@ -14,7 +14,7 @@ This full-stack site was built using HTML5, CSS3, [Materialize CSS](https://mate
 
 https://cryptic-sea-72027.herokuapp.com/
 
-![Screenshot](https://s22.postimg.cc/oza8xtbf5/Screenshot_2018-06-10_Friend_Finder.png)
+![Screenshot](https://s22.postimg.cc/runc4jhy9/Screenshot_2018-06-10_Friend_Finder_1.png)
 
 ### Note
 
