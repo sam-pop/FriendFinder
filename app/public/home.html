@@ -1,1 +1,82 @@
-TODO: build this home page
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder!</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .hero {
+            padding-top: 10%;
+            color: #FAFAFA;
+        }
+
+        .card-panel {
+            background-color: #8E24AA;
+
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        body {
+            background-color: #FAFAFA;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        button {
+            background-color: #9c27b0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="hero">
+            <div class="card-panel hoverable center-align">
+                <h2>
+                    <i class="material-icons large">account_circle</i>
+                    <br> friend.finder
+                </h2>
+                <h5>
+                    Ready to find a new sidekick?
+                </h5>
+                <h6>Just answer a quick survey</h6>
+                <br>
+                <a href="/survey" class=" btn waves-effect waves-light white purple-text">
+                    <b>Let's do this</b>
+                </a>
+                <br>
+                <br>
+                <br>
+                <br> This website is designed to help you find a new pal, a buddy, a mate, a bro, a comrade!
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer purple darken-1">
+        <div class="footer-copyright">
+            <div class="container">
+                Creadted by Samuel Poplovitch
+                <a class="grey-text text-lighten-4 right" href="https://github.com/sam-pop/FriendFinder" target="_blank">Github Repo</a>
+                <span class="grey-text text-lighten-4 right">&nbsp;|&nbsp;</span>
+                <a class="grey-text text-lighten-4 right" href="/api/friends">API Friends Link</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
