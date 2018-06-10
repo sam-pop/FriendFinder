@@ -8,7 +8,7 @@ The site also includes a basic API.
 
 ## What I used
 
-This full-stack site was built using HTML5, CSS3, [Materialize CSS](https://materializecss.com/), JavaScript, jQuery, (and the awesome [SweetAlerts](https://sweetalert.js.org/) library).
+This full-stack site was built using HTML5, CSS3, [Materialize CSS](https://materializecss.com/), JavaScript, jQuery and the awesome [SweetAlerts](https://sweetalert.js.org/) library.
 
 [Node.JS](https://nodejs.org/) and [Express](https://expressjs.com/) (for routing).
 
